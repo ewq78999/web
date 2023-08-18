@@ -1,0 +1,47 @@
+h3 {
+    color: green;
+    background-color: aqua;
+}
+
+/* 태그 이름을 선택하면 모든 값의 색이 변한다 */
+p { color: pink;
+    font-family: 'Tilt Prism';
+}
+
+/* id 선택자, 그 중 id를 설정해서 따로 지정하는게 우선순위로 적용된다 */
+#here { color: gold;
+        background-image: url('https://picsum.photos/200/300');
+}
+
+/* class 선택자 */
+.hello { color: purple;
+}
+
+p.center{ text-align: center;
+}
+
+p#size{ font-size: 50px;
+}
+
+
+ul.english > li { color: royalblue;
+}
+
+ul.korean > li { color: gray;  /*color: rgb(0, 123, 123);   or   color: #123411;*/
+}  
+
+.korean {
+
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: blanchedalmond; */
+    border: 2px dashed bisque;
+    border-radius: 5px;
+}
+
+.english {
+    /* margin-top: 50px; */
+    margin: 25px 50px 75px 100px; /*위에서부터 시계방향으로 돔*/
+    /* margin: 25px 50px 100px; 중간은 좌, 우를 같이 설정함 */
+
+}

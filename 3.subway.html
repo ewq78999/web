@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    
+        <h1>FORM</h1>
+
+        <p>주문서를 작성하여 주십시오</p>
+        <div>
+            <label for="username">이름: </label>
+            <input type="text" id="username" name="username">
+        </div>
+            <label for="password">날짜: </label>
+            <input type="date">
+
+        <h3>1.샌드위치 선택</h3>
+
+
+        <input type="radio" name="choice" id="mayo" value="html">
+        <label for="">에그마요</label><br>
+        <input type="radio" name="choice" id="bmt" value="html">
+        <label for="">이탈리안 비엠티</label><br>
+        <input type="radio" name="choice" id="turkey" value="html">
+        <label for="">터키 베이컨 아보카도</label>
+
+        <hr>
+
+        <h3>2.사이즈 선택</h3>
+
+        <!-- <label for="length">빵 길이를 선택하세요:</label>
+
+        <select name="length" id="length">
+        <option value="15">15인치</option>
+        <option value="30">30인치</option>
+        </select> -->
+
+        <input type="number" min="15" max="30" step="15" value="15">
+
+        <hr>
+
+        <h3>3.빵</h3>
+
+        <label for="bread"></label>
+
+        <select name="bread" id="bread">
+        <option value="honey">허니오트</option>
+        <option value="flat" disabled>플랫브레드</option>
+        <option value="italian">하티 이탈리안</option>
+        </select>
+        <input type="submit">
+
+        <hr>
+
+        <h3>4.야채/소스</h3>
+        <input type="checkbox" name="vegi1" value="tomato" id="vegi1">
+        <label for="vegi1">토마토</label>
+        <br>
+        <input type="checkbox" name="vegi2" value="cucumber" id="vegi2">
+        <label for="vegi2">오이</label>
+        <br>
+        <input type="checkbox" name="vegi3" value="phinos" id="vegi3">
+        <label for="vegi3">할라피뇨</label>
+        <br>
+        <input type="checkbox" name="vegi4" value="hotchilli" id="vegi4">
+        <label for="vegi4">핫 칠리</label>
+        <br>
+        <input type="checkbox" name="vegi5" value="barbeque" id="vegi5">
+        <label for="vegi5">바베큐</label>
+        <br>
+        <br>
+
+        <button>submit</button>
+
+    </form>
+</body>
+</html>
